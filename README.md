@@ -1,4 +1,8 @@
-This repo contains pre-built packages for Travis CI.
-Each branch contains packages for a specific OS
-At the moment there only one branch:
- + windows
+# QtReports building packages for Windows
+This branch contains packages required Travis CI for building in Windows.
+## Packages
++ Pre-build QtBase package (part of [Qt Framework](https://www.qt.io/))
++ Command line version of [7-zip](https://www.7-zip.org/)
+## Versions
+    QtBase       5.12.1 (Uploaded 28.02.2019)
+    7-zip        18.05 (Uploaded 01.03.2019)
